@@ -2,12 +2,16 @@
 
 [**Open the google.com**](http://www.google.com)<br>
 [**Google Sayfasını aç**](http://www.google.com)
+<br>
+<br>
 
 In this line **"I will try to make some words bold"**<br>
 Bu satırda **"Bazı kelimeleri koyu yapmaya çalışacağım"**
 
 In this line *"I will try to make some words italic"*<br>
 Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
+<br>
+<br>
 
 # This is a h1 tag
 ## This is a h2 tag
@@ -17,6 +21,9 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 # Bu satır h1 başlığını gösterir
 ## Bu satır h2 başlığını gösterir
 ### Bu satır h3 başlığını gösterir
+<br>
+<br>
+
 
 * Unit 1
 * Unit 2
@@ -27,6 +34,7 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 * Konu2
   * Konu2 Alt Konu1
   * Konu2 Alt konu2
-
+<br>
+<br>
 
 
