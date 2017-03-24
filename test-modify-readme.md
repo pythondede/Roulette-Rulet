@@ -44,12 +44,12 @@ def rulet_dondur():
          print("\tTop donmeye basliyor...")
          time.sleep(3)
          deneme = 0
-         
+
          for i in range(1000):
                   sayi = random.randint(0,36)
                   print(sayi)
                   deneme = deneme +1
-                  
+
                   if sayi == sayi_sor:
                            donme_sayisi.append(deneme)
                            print("\t-",deneme,"-","deneme sonunda girmis oldugunuz",sayi_sor,"rakamini tuturdunuz")
@@ -59,6 +59,6 @@ def rulet_dondur():
                            ortalama_tutturma = toplam_cevirme_sayisi / len(donme_sayisi)
                            print("\tCevirip Tutturma Ortalamasi:",ortalama_tutturma)
                            return tekrar()
-     
 
-
+<!--Comment Area Test Entry from Atom thought GitHubDesktop -->
+<!--Atom editörü kullanalarak GitHubDesktop üzerinden yorum alanına giriş yapılması-->
