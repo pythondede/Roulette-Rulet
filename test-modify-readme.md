@@ -93,13 +93,4 @@ def rulet_dondur():
 ```
 <br>
 <br>
-#### Task List , Gorev Listesi Test
-- [x] @mentions, #refs, test 1234
-- [x] Tamamlanmis gorevler
-- [x] Completed Task
-- [ ] Incomplete Task
-- [ ] Tamamlanmamiş görev
-- [ ] Tamamlanmamış diğer görev
 
-<br>
-<br>
