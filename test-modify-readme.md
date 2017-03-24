@@ -16,11 +16,18 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 # This is a h1 tag
 ## This is a h2 tag
 ### This is a h3 tag
+#### This is h4 tag
+###### This is h5 tag
+###### This is h6 tag
 
 
 # Bu satır h1 başlığını gösterir
 ## Bu satır h2 başlığını gösterir
 ### Bu satır h3 başlığını gösterir
+#### Bu satır h4 başlığını gösterir
+##### Bu satır h5 başlığını gösterir
+###### Bu satır h6 başlığını gösterir
+
 <br>
 <br>
 
@@ -29,6 +36,7 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 * Unit 2
   * Unit 2a
   * Unit 2b
+  ==--
 
 * Konu1
 * Konu2
@@ -38,7 +46,6 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 <br>
 
 ### Code Test with pre
-
 <pre>
 def rulet_dondur():
          print("\tTop donmeye basliyor...")
@@ -48,7 +55,7 @@ def rulet_dondur():
          for i in range(1000):
                   sayi = random.randint(0,36)
                   print(sayi)
-                  deneme = deneme +1
+                deneme = deneme +1
 
                   if sayi == sayi_sor:
                            donme_sayisi.append(deneme)
@@ -59,6 +66,9 @@ def rulet_dondur():
                            ortalama_tutturma = toplam_cevirme_sayisi / len(donme_sayisi)
                            print("\tCevirip Tutturma Ortalamasi:",ortalama_tutturma)
                            return tekrar()
-
+<br>
+### Comment entred (raw view)
 <!--Comment Area Test Entry from Atom thought GitHubDesktop -->
 <!--Atom editörü kullanalarak GitHubDesktop üzerinden yorum alanına giriş yapılması-->
+<br>
+<br>
