@@ -37,4 +37,28 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 <br>
 <br>
 
+### Code Test with pre
+
+<pre>
+def rulet_dondur():
+         print("\tTop donmeye basliyor...")
+         time.sleep(3)
+         deneme = 0
+         
+         for i in range(1000):
+                  sayi = random.randint(0,36)
+                  print(sayi)
+                  deneme = deneme +1
+                  
+                  if sayi == sayi_sor:
+                           donme_sayisi.append(deneme)
+                           print("\t-",deneme,"-","deneme sonunda girmis oldugunuz",sayi_sor,"rakamini tuturdunuz")
+                           print("\tGecmisteki tutturma denemeleri",donme_sayisi,)
+                           toplam_cevirme_sayisi = sum(donme_sayisi)
+                           print("\tToplam",toplam_cevirme_sayisi,"defa cevirdiniz.")
+                           ortalama_tutturma = toplam_cevirme_sayisi / len(donme_sayisi)
+                           print("\tCevirip Tutturma Ortalamasi:",ortalama_tutturma)
+                           return tekrar()
+</pre>
+
 
