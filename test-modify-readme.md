@@ -59,6 +59,6 @@ def rulet_dondur():
                            ortalama_tutturma = toplam_cevirme_sayisi / len(donme_sayisi)
                            print("\tCevirip Tutturma Ortalamasi:",ortalama_tutturma)
                            return tekrar()
-</pre>
+     
 
 
