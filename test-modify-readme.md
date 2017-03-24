@@ -36,7 +36,7 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 * Unit 2
   * Unit 2a
   * Unit 2b
-  ==--
+
 
 * Konu1
 * Konu2
@@ -45,30 +45,61 @@ Bu satırda *"Bazı kelimeleri eğik yazmaya çalışacağım"*
 <br>
 <br>
 
-### Code Test with pre
-<pre>
-def rulet_dondur():
-         print("\tTop donmeye basliyor...")
-         time.sleep(3)
-         deneme = 0
 
-         for i in range(1000):
-                  sayi = random.randint(0,36)
-                  print(sayi)
-                deneme = deneme +1
-
-                  if sayi == sayi_sor:
-                           donme_sayisi.append(deneme)
-                           print("\t-",deneme,"-","deneme sonunda girmis oldugunuz",sayi_sor,"rakamini tuturdunuz")
-                           print("\tGecmisteki tutturma denemeleri",donme_sayisi,)
-                           toplam_cevirme_sayisi = sum(donme_sayisi)
-                           print("\tToplam",toplam_cevirme_sayisi,"defa cevirdiniz.")
-                           ortalama_tutturma = toplam_cevirme_sayisi / len(donme_sayisi)
-                           print("\tCevirip Tutturma Ortalamasi:",ortalama_tutturma)
-                           return tekrar()
-<br>
 ### Comment entred (raw view)
 <!--Comment Area Test Entry from Atom thought GitHubDesktop -->
 <!--Atom editörü kullanalarak GitHubDesktop üzerinden yorum alanına giriş yapılması-->
+<br>
+<br>
+
+#### Blackquotes Test
+>This is a Blackquotes
+
+>Bu bir Blackquotestur
+<br>
+<br>
+
+#### Syntax Hightlight
+```python
+def rulet_dondur():
+         print("Basit Poker Oyun Denemesi")
+         sayi_sor = int(input("0-36 arasi bir sayi giriniz:\n"))
+         if sayi_sor in range(0,36):
+                  print("Dogru sayi girildi")
+         else:
+                  print("Yanlis sayi girildi, tekrar deneyiniz")
+                  return rulet_dondur()
+
+         print("\n\nMasa donmeye basliyor...\n\nCikan sayilar;")
+         time.sleep(0)
+         deneme = 0
+         for i in range(1000):
+                  sayi = random.randint(0,36)
+                  deneme = deneme +1
+                  print(sayi,sep="",end="\t",)
+
+                  if sayi == sayi_sor:
+                           donme_sayisi.append(deneme)
+                           toplam_cevirme_sayisi = sum(donme_sayisi)
+                           ortalama_tutturma = toplam_cevirme_sayisi / len(donme_sayisi)
+                           toplam_tutturma = len(donme_sayisi)
+                           print("\n\n\t[%d]cevirme sonunda girmis oldugunuz [%d] akamini tuturdunuz"%(deneme,sayi_sor))
+                           print("\tGecmisteki tutturma denemeleri\t")
+                           print("\t"+str(donme_sayisi))
+                           print("\tToplam [%d] defa cevirdiniz [%d] defa tutturdunuz" % (toplam_cevirme_sayisi,math.ceil(toplam_tutturma)))
+                           print("\tOrtalama [%d] defa cevirdiginizde tutturuyorsunuz"% math.ceil(ortalama_tutturma))
+
+                           return def_tekrar()
+```
+<br>
+<br>
+#### Task List , Gorev Listesi Test
+- [x] @mentions, #refs, test 1234
+- [x] Tamamlanmis gorevler
+- [x] Completed Task
+- [ ] Incomplete Task
+- [ ] Tamamlanmamiş görev
+- [ ] Tamamlanmamış diğer görev
+
 <br>
 <br>
