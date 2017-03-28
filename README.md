@@ -10,4 +10,4 @@
 * [README.md](https://github.com/pythondede/Roulette-Rulet/blob/master/test-modify-readme.md) dosyasını düzenmeyi deniyorum.<br>
 * Bu alanın türkçe karakter desteklediğini kontrol ettim.<br>
 [Rulet oyunu](https://github.com/pythondede/Roulette-Rulet/blob/master/Roulette-Rulet_TR.py)nun ilk Türkçe versiyonunu yükledim.
-* Bir sonraki alıştırma denemelerimde HTML gerekli olacak. Bu yüzden [tablolarla ucundan biraz başlamaya] (https://github.com/pythondede/Roulette-Rulet/blob/master/html_tables.html)karar verdim.
+* Bir sonraki alıştırma denemelerimde HTML gerekli olacak. Bu yüzden [tablolarla ucundan biraz başlamaya](https://github.com/pythondede/Roulette-Rulet/blob/master/html_tables.html)karar verdim.
