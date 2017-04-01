@@ -26,11 +26,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-
-
 
 #### Mevcut Özellikler
 * Giriş Ekranı
