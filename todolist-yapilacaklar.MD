@@ -14,7 +14,7 @@
 * Result Screen
   * How many spin later you have won.
   * Previous spin counters until won.
-  * How many times you have try and won.
+  * How many times you have tried and won.
   * Avarage number of spin to win.
   
   
