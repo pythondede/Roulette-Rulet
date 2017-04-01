@@ -16,6 +16,13 @@
   * Previous spin counters until won.
   * How many times you have try and won.
   * Avarage number of spin to win.
+  
+  
+#### Currently Working on
+* Text Based Menu
+* Betting  Color
+* Betting on Odd / Even
+* Betting Multiple Numbers
 <br>
 <br>
 <br>
@@ -41,3 +48,10 @@
   * Daha önceki isabet sayılarının gösterilmesi.
   * Kaç defa deneyip, kaç defa kazandığının ettirildiğinin gösterilmesi
   * Ortalamada kaç deneme sonrası kazandığının gösterilmesi.
+  
+  
+#### Şu anda üzerinde çalışılanlar
+* Metin Menü
+* Renk Oyna
+* Tek / Çift oyna
+* Çoklu Sayı oyna
